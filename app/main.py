@@ -13,3 +13,6 @@ def read_item(item_id: int, q: str = None):
 @app.post("/users/")
 def create_user(username: str, email: str):
  return {"username": username, "email": email, "id": 1}
+
+
+print("API is running...")
